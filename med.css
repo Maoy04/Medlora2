@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: white;
+  font-family: monospace;
+  background: linear-gradient(#35e76a, #fff);
+}
+
+.med img {
+  width: 40%;
+  margin-left: 30%;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  width: 139%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+nav ul li {
+  font-size: 2rem;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(94, 94, 94);
+}
+
+.main {
+  color: black;
+  width: 50%;
+  height: 500px;
+  line-height: 2em;
+  font-size: 14px;
+  margin-left: 25%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  border-radius: 20px;
+}
+
+.main h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cd {
+  display: flex;
+  color: black;
+  align-items: center;
+  height: 500px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+  border-radius: 30px;
+  background: url(./images/ml.png);
+}
+
+.cd h1 {
+  font-size: 4rem;
+}
+
+.cd hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cd span {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.cd .im {
+  transform: translateX(-25);
+  margin-right: 1%;
+}
+
+.cd .im img {
+  border-radius: 120%;
+  height: 250px;
+  width: 250px;
+}
+
+.cd .th {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 70%;
+}
+
+.cd p {
+  font-size: 15px;
+}
+
+.pr {
+  width: 1000px;
+  margin: auto;
+  margin-left: 210px;
+  margin-top: 100px;
+}
+
+.pr1 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 120%;
+  margin-top: 5px;
+}
+
+.pr1 {
+  transition: 0.4s;
+  color: black;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  text-align: center;
+  font-size: 15px;
+  float: left;
+  margin: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.pr h1 {
+  margin-left: 25%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.pr hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-bottom: 8.7%;
+  border-radius: 5px;
+}
